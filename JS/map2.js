@@ -5,10 +5,12 @@ const carrinho = [
     '{"nome": "Caneta", "preco": 2.19}'
 ]
 
-const viraObj = e => e = JSON.parse(e)
+//Retornar array apenas com o preço
 
-const retornaPreco = function (e){
-    return e.preco
-}
+const viraObj = json => JSON.parse(json)
+
+const retornaPreco = produto => produto.preco
 
 console.log(carrinho.map(viraObj).map(retornaPreco))
+
+
