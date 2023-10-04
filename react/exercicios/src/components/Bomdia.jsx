@@ -1,3 +1,6 @@
-import React from 'react'
+import React  from 'react'
 
-export default props => <h1>Bom dia meu {props.nome}!</h1>
+export default props => [
+        <h1 key='h1'>Bom dia {props.nome}!</h1>,
+        <h2 key='h2'>Show da bola?</h2>
+]

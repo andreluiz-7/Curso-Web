@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from 'react-dom'
-import Primeiro from './components/Primeiro'
+//import Primeiro from './components/Primeiro'
 import Bomdia from "./components/Bomdia"
 
 
